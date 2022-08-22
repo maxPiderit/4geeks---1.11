@@ -1,0 +1,31 @@
+* {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-color: black;
+}
+
+.body {
+  background-color: black;
+}
+
+.general-box {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 90px;
+}
+
+.up-section {
+  height: 20px;
+  width: 100%;
+}
+
+.middle-section {
+  flex: 1;
+}
+
+.bottom-section {
+  height: 60px;
+  width: 100%;
+}
